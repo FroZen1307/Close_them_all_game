@@ -1,2 +1,2 @@
-# Close_it_all_game
+# Close_them_all_game
  First LMS Project
