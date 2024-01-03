@@ -1,12 +1,9 @@
-from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel
-import sys
+from PyQt5.QtWidgets import QMainWindow, QLabel
 from random import randint, choice
 import tkinter as tk
 from PyQt5 import uic
 
 import Abbilities
-
-app = QApplication(sys.argv)
 
 root = tk.Tk()
 X = root.winfo_screenwidth()
@@ -256,8 +253,3 @@ class Boss(Abbilities.Skills, QMainWindow):
                 event.ignore()
             else:
                 event.ignore()
-
-
-c = Boss()
-c.show()
-app.exec()
