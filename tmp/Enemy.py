@@ -3,6 +3,7 @@ import sys
 from random import randint, choice
 import tkinter as tk
 from PyQt5 import uic
+import PyQt5
 
 import Abbilities
 
