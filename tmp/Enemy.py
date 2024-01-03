@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QApplication, QMainWindow, QLCDNumber, QLabel
+from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel
 import sys
 from random import randint, choice
 import tkinter as tk
